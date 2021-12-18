@@ -34,7 +34,7 @@ class Ui_MainWindow(object):
 
 
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(10, 10, 301, 41))
+        self.label.setGeometry(QtCore.QRect(10, 10, 550, 41))
         self.label.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label.setObjectName("label")
         self.label.setToolTip("Here you can view the weather at your destination")
@@ -45,7 +45,7 @@ class Ui_MainWindow(object):
                                  "}")
 
         self.label2 = QtWidgets.QLabel(self.centralwidget)
-        self.label2.setGeometry(QtCore.QRect(10, 60, 231, 41))
+        self.label2.setGeometry(QtCore.QRect(10, 60, 350, 41))
         self.label2.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label2.setObjectName("label")
         self.label2.setToolTip("Here you can view the distance at your destination")
@@ -56,7 +56,7 @@ class Ui_MainWindow(object):
                                  "}")
 
         self.label3 = QtWidgets.QLabel(self.centralwidget)
-        self.label3.setGeometry(QtCore.QRect(10, 110, 171, 41))
+        self.label3.setGeometry(QtCore.QRect(10, 110, 250, 41))
         self.label3.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label3.setObjectName("label")
         self.label3.setToolTip("Here you can view the price at your destination")
@@ -162,12 +162,12 @@ class Ui_ResultWindow(object):
         self.centralwidget.setObjectName("centralwidget")
 
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(585, 10, 101, 41))
+        self.label.setGeometry(QtCore.QRect(572, 10, 101, 41))
         self.label.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.label.setStyleSheet("font: 20pt \"Times\";")
+        self.label.setStyleSheet("font: 17pt \"Times\";")
         self.label.setObjectName("label")
         self.label.setStyleSheet("QLabel{\n"
-                                   "font: 22pt \"Times\";\n"
+                                   "font: 18pt \"Times\";\n"
                                    "color:#00FFFF ;\n"
                                    "border: none;\n"
                                    "}")
@@ -175,7 +175,7 @@ class Ui_ResultWindow(object):
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(680, 10, 201, 41))
         self.lineEdit.setAutoFillBackground(False)
-        self.lineEdit.setStyleSheet("font: 22pt \"Times\";\n"
+        self.lineEdit.setStyleSheet("font: 18pt \"Times\";\n"
                                       "color:#00FFFF ;\n"
                                       "background-color: rgba(0, 0, 128, 0.2) ;\n"
                                       "border: 4px inset blue;\n"
@@ -186,7 +186,7 @@ class Ui_ResultWindow(object):
         self.lineEdit_2 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_2.setGeometry(QtCore.QRect(680, 60, 201, 41))
         self.lineEdit_2.setAutoFillBackground(False)
-        self.lineEdit_2.setStyleSheet("font: 22pt \"Times\";\n"
+        self.lineEdit_2.setStyleSheet("font: 18pt \"Times\";\n"
                                       "color:#00FFFF ;\n"
                                       "background-color: rgba(0, 0, 128, 0.2) ;\n"
                                       "border: 4px inset blue;\n"
@@ -195,12 +195,12 @@ class Ui_ResultWindow(object):
         self.lineEdit_2.setToolTip("Here you can input city to: Country, City")
 
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(595, 60, 101, 41))
+        self.label_2.setGeometry(QtCore.QRect(597, 60, 101, 41))
         self.label_2.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.label_2.setStyleSheet("font: 20pt \"Times\";")
+        self.label_2.setStyleSheet("font: 17pt \"Times\";")
         self.label_2.setObjectName("label_2")
         self.label_2.setStyleSheet("QLabel{\n"
-                                   "font: 22pt \"Times\";\n"
+                                   "font: 18pt \"Times\";\n"
                                    "color:#00FFFF ;\n"
                                    "border: none;\n"
                                    "}")
@@ -208,7 +208,7 @@ class Ui_ResultWindow(object):
         self.lineEdit_3 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_3.setGeometry(QtCore.QRect(680, 110, 201, 41))
         self.lineEdit_3.setAutoFillBackground(False)
-        self.lineEdit_3.setStyleSheet("font: 22pt \"Times\";\n"
+        self.lineEdit_3.setStyleSheet("font: 18pt \"Times\";\n"
                                       "color:#00FFFF ;\n"
                                       "background-color: rgba(0, 0, 128, 0.2) ;\n"
                                       "border: 4px inset blue;\n"
@@ -220,34 +220,34 @@ class Ui_ResultWindow(object):
         self.lineEdit_3.setCompleter(pr)
 
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
-        self.label_3.setGeometry(QtCore.QRect(600, 110, 101, 41))
+        self.label_3.setGeometry(QtCore.QRect(595, 110, 101, 41))
         self.label_3.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.label_3.setStyleSheet("font: 20pt \"Times\";")
+        self.label_3.setStyleSheet("font: 17pt \"Times\";")
         self.label_3.setObjectName("label_3")
         self.label_3.setStyleSheet("QLabel{\n"
-                                   "font: 22pt \"Times\";\n"
+                                   "font: 18pt \"Times\";\n"
                                    "color:#00FFFF ;\n"
                                    "border: none;\n"
                                    "}")
 
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
-        self.label_4.setGeometry(QtCore.QRect(540, 160, 131, 41))
+        self.label_4.setGeometry(QtCore.QRect(520, 160, 160, 41))
         self.label_4.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.label_4.setStyleSheet("font: 20pt \"Times\";")
+        self.label_4.setStyleSheet("font: 17pt \"Times\";")
         self.label_4.setObjectName("label_4")
         self.label_4.setStyleSheet("QLabel{\n"
-                                   "font: 22pt \"Times\";\n"
+                                   "font: 18pt \"Times\";\n"
                                    "color:#00FFFF ;\n"
                                    "border: none;\n"
                                    "}")
 
         self.label_5 = QtWidgets.QLabel(self.centralwidget)
-        self.label_5.setGeometry(QtCore.QRect(570, 210, 101, 41))
+        self.label_5.setGeometry(QtCore.QRect(555, 210, 150, 41))
         self.label_5.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.label_5.setStyleSheet("font: 20pt \"Times\";")
+        self.label_5.setStyleSheet("font: 17pt \"Times\";")
         self.label_5.setObjectName("label_5")
         self.label_5.setStyleSheet("QLabel{\n"
-                                   "font: 22pt \"Times\";\n"
+                                   "font: 18pt \"Times\";\n"
                                    "color:#00FFFF ;\n"
                                    "border: none;\n"
                                    "}")
@@ -255,7 +255,7 @@ class Ui_ResultWindow(object):
         self.lineEdit_4 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_4.setGeometry(QtCore.QRect(680, 160, 201, 41))
         self.lineEdit_4.setAutoFillBackground(False)
-        self.lineEdit_4.setStyleSheet("font: 22pt \"Times\";\n"
+        self.lineEdit_4.setStyleSheet("font: 18pt \"Times\";\n"
                                       "color:#00FFFF ;\n"
                                       "background-color: rgba(0, 0, 128, 0.2) ;\n"
                                       "border: 4px inset blue;\n"
@@ -378,7 +378,7 @@ class ResultWindow(QMainWindow, Ui_ResultWindow):
             s = line[1][1:-1]
             city_to = list(map(str, s.split(', ')))
         m = all_dates.dijkstra(city_from, city_to)
-        webbrowser.open("file:FeatureGroup.html", new = 2)
+        webbrowser.open('file://' + os.path.realpath('FeatureGroup.html'))
 
     def btnClosed(self):
         self.close()
@@ -400,9 +400,10 @@ class ResultWindow(QMainWindow, Ui_ResultWindow):
         owm = pyowm.OWM("e4e1efbc1a7afebbbc33ed068b32512c")
         s = self.lineEdit_2.text()
         city_to = s.split(",")[1]
-        observation = owm.weather_at_place(city_to)
-        w = observation.get_weather()
-        temperature = w.get_temperature("celsius")['temp']
+        mgr = owm.weather_manager()
+        observation = mgr.weather_at_place(city_to)
+        w = observation.weather
+        temperature = w.temperature("celsius")['temp']
         file.write(str(temperature) + "\n")
         file.close()
 
@@ -466,21 +467,21 @@ class Ui_InputingWindow(object):
         self.lineEdit_7.setCompleter(completer)
 
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(270, 420, 181, 41))
+        self.label_2.setGeometry(QtCore.QRect(225, 420, 200, 41))
         self.label_2.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_2.setObjectName("label_2")
         self.label_2.setStyleSheet("QLabel{\n"
-                                 "font: 22pt \"Times\";\n"
+                                 "font: 20pt \"Times\";\n"
                                  "color:#00FFFF ;\n"
                                  "border: none;\n"
                                  "}")
 
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
-        self.label_3.setGeometry(QtCore.QRect(290, 470, 181, 41))
+        self.label_3.setGeometry(QtCore.QRect(255, 470, 181, 41))
         self.label_3.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_3.setObjectName("label_3")
         self.label_3.setStyleSheet("QLabel{\n"
-                                   "font: 22pt \"Times\";\n"
+                                   "font: 20pt \"Times\";\n"
                                    "color:#00FFFF ;\n"
                                    "border: none;\n"
                                    "}")
@@ -559,7 +560,7 @@ class InputingWindow(QMainWindow, Ui_InputingWindow):
                 s = s[:-1]
             countries.append(list(map(str, s.split(', '))))
         m = all_dates.tsp(countries)
-        webbrowser.open("file:FeatureGroup.html", new=2)
+        webbrowser.open('file://' + os.path.realpath('FeatureGroup.html'))
 
     def init_points(self):
         self.points = self.lineEdit_5.text()
@@ -601,7 +602,7 @@ class MyWindow(QMainWindow, Ui_MainWindow):
         for line in file:
             if c == 0:
                 temperature = float(line)
-                self.label.setText(f"Weather at your destination is: {temperature}")
+                self.label.setText(f"Weather at your destination is: {temperature}C")
             c += 1
 
     def open_site(self):
